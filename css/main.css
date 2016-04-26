@@ -1,0 +1,246 @@
+body {
+    background-image: url(http://www.ifurn.com/pics/8/boss-chairs/boss-reception-desk.BCG-004.3._raw.jpg);
+}
+
+
+
+.outer {
+	width: 412px;
+	height: 672px;
+	margin: 0 auto 0 auto;
+	background-color: #1a1a1a;
+	border-radius: 20px;
+	box-shadow: 7px 7px 7px black;
+}
+
+#display {
+	font-size: 28px;
+
+}
+
+.calculator {
+	width: 400px;
+	height: 550px;
+	background-color: #669aff;
+	margin: 70px auto 0 auto;
+	top: 55px;
+	position: relative;
+	border-radius: 1px;
+}
+
+#display {
+	width: 384px;
+	height: 48px;
+	margin: 32px 8px 0px 8px;
+	border: none;
+	border-radius: 2px;
+}
+
+#keys {
+	width: 93px;
+	margin: 4px 0px 0px 0px;
+	border: 0px;
+	padding: 0px;
+	background-color: #EEFCFF;
+	height: 56px;
+	border-radius: 2px;
+	box-shadow: 1px 1px 1px #47a1b2;
+	 -webkit-transition: height .1s, background-color .5s, -webkit-transform 2s;
+    transition: height .3s, background-color .5s, transform 2s;
+	}
+
+.section {
+	width: 384px;
+	margin: 32px auto 0px auto;
+}
+
+#equal {
+	width: 190px;
+	margin: 4px 0px 0px 0px;
+	border: 0px;
+	padding: 0px;
+	height: 56px;
+	float: right;
+	background-color: #EEFCFF;
+	border-radius: 2px;
+	box-shadow: 1px 1px 1px #47a1b2;
+	 -webkit-transition: height .3s, background-color .5s, -webkit-transform 2s;
+    transition: height .3s, background-color .5s, transform 2s;
+	}
+
+
+#key1{
+	width: 93px;
+	margin: 4px 4px 0px 0px;
+	border: 0px;
+	padding: 0px;
+	background-color: #EEFCFF;
+	height: 56px;
+	float: right;
+	border-radius: 2px;
+	box-shadow: 1px 1px 1px #47a1b2;
+	 -webkit-transition: height .3s, background-color .5s, -webkit-transform 2s;
+    transition: height .3s, background-color .5s, transform 2s;
+	}
+
+	#key2{
+	width: 93px;
+	margin: 4px 4px 0px 0px;
+	border: 0px;
+	padding: 0px;
+	background-color: #EEFCFF;
+	height: 56px;
+	float: left;
+	border-radius: 2px;
+	box-shadow: 1px 1px 1px #47a1b2;
+	 -webkit-transition: height .3s, background-color .5s, -webkit-transform 2s;
+    transition: height .3s, background-color .5s, transform 2s;
+	}
+
+#keys:hover {
+	width: 93px;
+	margin: 4px 0px 0px 0px;
+	border: 0px;
+	padding: 0px;
+	height: 52px;
+	border-radius: 4px;
+	box-shadow: 1px 1px 1px gray;
+	background-color: #66E6FF;
+
+	}
+
+#equal:hover {
+	width: 190px;
+	margin: 4px 0px 0px 0px;
+	border: 0px;
+	padding: 0px;
+	height: 52px;
+	float: right;
+	background-color: #66E6FF;
+	border-radius: 2px;	
+	}
+
+#key1:hover{
+	width: 93px;
+	margin: 4px 4px 0px 0px;
+	border: 0px;
+	padding: 0px;
+	height: 56px;
+	float: right;
+	border-radius: 2px;
+	background-color: #66E6FF;
+	box-shadow: 1px 1px 1px gray;
+	}
+	
+	#key2:hover{
+	width: 93px;
+	margin: 4px 4px 0px 0px;
+	border: 0px;
+	padding: 0px;
+	height: 56px;
+	float: left;
+	border-radius: 2px;
+	background-color: #66E6FF;
+	box-shadow: 1px 1px 1px gray;
+	}
+
+	#keys:active {
+	width: 93px;
+	margin: 4px 0px 0px 0px;
+	border: 0px;
+	padding: 0px;
+	height: 40px;
+	border-radius: 4px;
+	box-shadow: 1px 1px 1px gray;
+	background-color: #51B8CC;
+	}
+
+#equal:active {
+	width: 190px;
+	margin: 4px 0px 0px 0px;
+	border: 0px;
+	padding: 0px;
+	height: 40px;
+	float: right;
+	background-color: #51B8CC;
+	border-radius: 2px;	
+	}
+
+#key1:active{
+	width: 93px;
+	margin: 4px 4px 0px 0px;
+	border: 0px;
+	padding: 0px;
+	height: 56px;
+	float: right;
+	border-radius: 2px;
+	background-color: #51B8CC;
+	box-shadow: 1px 1px 1px gray;
+	}
+
+	#f1, #f2, #f3, #f4 {
+	width: 93px;
+	margin: 4px 0px 0px 0px;
+	border: 0px;
+	padding: 0px;
+	background-color: #EEFCFF;
+	height: 56px;
+	border-radius: 2px;
+	box-shadow: 1px 1px 1px #47a1b2;
+		 -webkit-transition: height .3s, background-color .5s, -webkit-transform 2s;
+    transition: height .3s, background-color .5s, transform 2s;
+	}
+	
+		#f1:hover, #f2:hover, #f3:hover, #f4:hover {
+	width: 93px;
+	margin: 4px 0px 0px 0px;
+	border: 0px;
+	padding: 0px;
+	background-color: #51B8CC;
+	height: 56px;
+	border-radius: 2px;
+	box-shadow: 1px 1px 1px #47a1b2;
+		 -webkit-transition: height .3s, background-color .5s, -webkit-transform 2s;
+    transition: height .3s, background-color .5s, transform 2s;
+	}
+	
+	
+	#c {
+	width: 93px;
+	margin: 4px 0px 0px 0px;
+	border: 0px;
+	padding: 0px;
+	background-color: #333333;
+	color: white;
+	height: 56px;
+	border-radius: 2px;
+	box-shadow: 1px 1px 1px #47a1b2;
+	 -webkit-transition: height .1s, background-color .3s, -webkit-transform 2s;
+    transition: height .3s, background-color .3s, transform 2s;
+	}
+	
+	#c:hover {
+	width: 93px;
+	margin: 4px 0px 0px 0px;
+	border: 0px;
+	padding: 0px;
+	height: 52px;
+	border-radius: 4px;
+	box-shadow: 1px 1px 1px gray;
+	background-color: #e60000;
+	color: white;
+	}
+	
+	#c:active {
+	width: 93px;
+	margin: 4px 0px 0px 0px;
+	border: 0px;
+	padding: 0px;
+	height: 40px;
+	border-radius: 4px;
+	box-shadow: 1px 1px 1px gray;
+	background-color: darkred;
+	color: white;
+	}
+
+	

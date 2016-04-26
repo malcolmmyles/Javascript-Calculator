@@ -1,0 +1,54 @@
+header {
+background-color: red;
+height: 64px;
+width: 100%;
+}
+
+.calc {
+	background-color: yellow;
+	width: 448px;
+	height: 592px;
+	margin: 100px auto 32px auto;
+	border-radius: 6px;
+	box-shadow: 1px 1px 1px gray;
+}
+
+.bevel {
+	width: 416px;
+	margin: 0px auto 48px auto;
+	position: relative;
+	height: 112px;
+	background-color: red;
+	top: 24px;
+	border-radius: 3px;
+}
+
+.screen {
+	background-color: orange;
+	width: 384px;
+	height: 64px;
+	margin: 0px auto 64px auto;
+	top: 16px;
+	position: relative;
+}
+	
+.button {
+	background-color: gray;
+	width: 64px;
+	height: 48px;
+	margin: 16px 16px 0px 26px;
+	float: left;
+	border-radius: 2px;
+}
+
+#b1 {
+	background-color: gray;
+	width: 64px;
+	height: 48px;
+	margin: 16px 16px 0px 32px;
+	float: left;
+}
+
+.partition .button {
+	
+}
